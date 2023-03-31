@@ -1,0 +1,24 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_left = 190.0
+margin_top = 135.0
+margin_right = 888.872
+margin_bottom = 429.0
+
+[node name="Button2" type="Button" parent="HBoxContainer"]
+margin_right = 347.0
+margin_bottom = 294.0
+size_flags_horizontal = 3
+text = "bash"
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+margin_left = 351.0
+margin_right = 698.0
+margin_bottom = 294.0
+size_flags_horizontal = 3
+text = "miumen"
